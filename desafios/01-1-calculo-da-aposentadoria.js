@@ -1,3 +1,5 @@
+//Crie um programa para calcular a aposentadoria de uma pessoa.
+
 console.log('Primeiros passos com JS');
 
 console.log('Cálculo de Aposentadoria')
