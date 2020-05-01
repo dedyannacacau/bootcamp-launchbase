@@ -18,4 +18,4 @@ if(canRetireWomen || canRetireMen) {
     console.log(`${name}, você pode se aposentar!`)
 } else {
     console.log(`${name}, você não pode se aposentar!`)
-}
+}          
