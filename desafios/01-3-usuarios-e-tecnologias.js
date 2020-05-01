@@ -3,35 +3,34 @@
  *Percorra a lista de usuários com uma estrutura de repetição imprimindo em tela as informações dos usuários.
  */
 
-console.log('Funções e estruturas de repetição');
-console.log('Usuários e tecnologias');
+console.log('Users and Technologies');
 console.log('//////////////////////////////////')
 
-const usuarios = [
+const users = [
     {
-        nome: 'Carlos',
-        tecnologias: [
+        name: 'Carlos',
+        technologies: [
             'HTML', ' CSS'
         ]
     },
     {
-        nome: 'Jasmine',
-        tecnologias: [
+        name: 'Jasmine',
+        technologies: [
             'JavaScript', ' CSS'
         ]
     },
     {
-        nome: 'Tuane',
-        tecnologias: [
+        name: 'Tuane',
+        technologies: [
             'HTML', ' Node.js'
         ]
     }
 ];
 
-function imprimirInformacoes(usuarios) {
-    for(let i = 0; i < usuarios.length; i++){
-       console.log(`${usuarios[i].nome} trabalha com ${usuarios[i].tecnologias}`);
+function printInformation(users) {
+    for(let i = 0; i < users.length; i++){
+       console.log(`${users[i].name} trabalha com ${users[i].technologies}`);
     }
 }
 
-imprimirInformacoes(usuarios);
+printInformation(users);

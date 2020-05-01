@@ -24,4 +24,4 @@ const dadosUsuario = {
     ]
 };
 
-console.log(`O ${dadosUsuario.nome} tem ${dadosUsuario.idade} e usa a tecnologia ${dadosUsuario.tecnologias[0].nome} com especialidade em ${dadosUsuario.tecnologias[0].especialidade}`)
+console.log(`O ${dadosUsuario.nome} tem ${dadosUsuario.idade} e usa a tecnologia ${dadosUsuario.tecnologias[0].nome} com especialidade em ${dadosUsuario.tecnologias[0].especialidade}`);

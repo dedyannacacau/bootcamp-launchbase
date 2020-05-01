@@ -1,21 +1,21 @@
 //Crie um programa para calcular a aposentadoria de uma pessoa.
 
-console.log('Primeiros passos com JS');
-
 console.log('Cálculo de Aposentadoria')
 
-const nome = 'Silvana';
-const sexo = 'F';
-const idade = 48;
-const contribuicao = 23;
+const name = 'Silvana'
+const sex = 'F'
+const age = 60
+const contribution = 30
 
-const calculoParaSeAposentar = idade + contribuicao;
+const minimumContributionTimeWomen = 30
+const minimumContributionTimeMen = 35
+const contributionTime = age + contribution
 
-const tempoParaMulherSeAposentar = (sexo == 'F' && contribuicao >= 30 && calculoParaSeAposentar >= 85);
-const tempoParaHomemSeAposentar = (sexo == 'M' && contribuicao >= 35 && calculoParaSeAposentar >= 95)
+const canRetireWomen = (sex == 'F' && contributionTime >= 85 && contribution >= minimumContributionTimeWomen)
+const canRetireMen = (sex == 'M' && contributionTime >= 95 && contribution >= minimumContributionTimeMen)
 
-if(tempoParaMulherSeAposentar || tempoParaHomemSeAposentar){
-    console.log(`${nome}, você pode se aposentar!`);
+if(canRetireWomen || canRetireMen) {
+    console.log(`${name}, você pode se aposentar!`)
 } else {
-    console.log(`${nome}, você ainda não pode se aposentar!`);
+    console.log(`${name}, você não pode se aposentar!`)
 }

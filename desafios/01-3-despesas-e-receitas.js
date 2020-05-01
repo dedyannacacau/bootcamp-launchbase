@@ -40,7 +40,7 @@ function calculaSaldo (receitas, despesas) {
   const saldo = somaReceitas - somaDespesas;
 
   return saldo;
-};
+}
 
 /*
  *Crie uma segunda função que recebe como parâmetro um array de números e retorna a soma 
@@ -52,7 +52,7 @@ function somaNumeros (numeros) {
     soma += numeros[i];
   }
   return soma;
-};
+}
  
 /**
  * No fim exiba todos usuários em telas, seu respectivo saldo e SE o saldo é POSITIVO ou NEGATIVO:
