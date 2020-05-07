@@ -1,27 +1,22 @@
 //Crie um programa com um objeto para armazenar dados de um programador
 
-console.log('Lidando com objetos e vetores');
-
-console.log('Vetores e objetos');
-
-const dadosUsuario = {
-    nome: 'Carlos',
-    idade: 32, 
-    tecnologias: [
+const userData = {
+    name: 'Carlos',
+    age: 32, 
+    technology: [
         {
-            nome: 'C++',
-            especialidade: 'Desktop'
+            name: 'C++',
+            specialty: 'Desktop'
         },
         {
-            nome: 'Python',
-            especialidade: 'Data Science'
+            name: 'Python',
+            specialty: 'Data Science'
         },
         {
-            nome: 'JavaScript',
+            name: 'JavaScript',
             especialidade: 'Web/Mobile'
         }
-
     ]
-};
+}
 
-console.log(`O ${dadosUsuario.nome} tem ${dadosUsuario.idade} e usa a tecnologia ${dadosUsuario.tecnologias[0].nome} com especialidade em ${dadosUsuario.tecnologias[0].especialidade}`);
+console.log(`O usuário ${userData.name} tem ${userData.age} e usa a tecnologia ${userData.technology[0].name} com especialidade em ${userData.technology[0].specialty}`)

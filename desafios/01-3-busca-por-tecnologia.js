@@ -3,9 +3,6 @@
  *Essa função deve retornar um boolean true/false.
  */
 
-console.log('Usuários e tecnologias');
-console.log('//////////////////////////////////')
-
 const usuarios = [
     {
         nome: 'Carlos',

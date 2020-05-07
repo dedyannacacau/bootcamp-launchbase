@@ -1,7 +1,5 @@
 //Crie um programa para calcular o IMC e nível de obesidade de uma pessoa.
 
-console.log('Cálculo de IMC')
-
 const nome = "Carlos";
 const peso = 84;
 const altura = 1.88;

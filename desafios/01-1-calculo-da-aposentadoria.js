@@ -1,7 +1,5 @@
 //Crie um programa para calcular a aposentadoria de uma pessoa.
 
-console.log('Cálculo de Aposentadoria')
-
 const name = 'Silvana'
 const sex = 'F'
 const age = 60

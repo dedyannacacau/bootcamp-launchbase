@@ -4,8 +4,6 @@
  *receitas e despesas do usuário
  */
 
-console.log('Soma de despesas e receitas');
-
 const usuarios = [
   {
     nome: "Salvio",

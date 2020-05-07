@@ -4,9 +4,6 @@
  *As transações (transactions) devem iniciar como um array vazio [] e o saldo (balance) em 0 (zero).
  */
 
-console.log('Banking Operations');
-console.log('//////////////////////////////////')
-
 const user = {
     name: 'Mariana',
     transactions: [],
